@@ -1,0 +1,90 @@
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+body{
+    
+    background-color: #0c0032; 
+     color: white;}
+   
+     li {color:white;}
+     h1 { text-align:center ;}
+     p {text-align: center;}
+     h2 {text-align: left;}
+     
+
+    
+/* -----------------Portfolio--------------------- */    
+     p.Meergeräusche{font-size: 18px; color: white; text-align: left;}
+     p.Musikvideo{font-size: 18px; color:white; text-align: left;}
+  
+     /* -----------------Steckbrief--------------------- */
+     
+     div.Border {
+        background-color: 0c0032;
+       width: 800px;
+       border: 2px solid white;
+       padding: 80px;
+       margin: auto;   }
+
+     h1.Ich{text-align: left;}
+     h1.Studium{text-align: left;}
+     p.HFU{text-align: left;}
+     p.HFUSite{text-align: left;}
+/* -----------------Kontakt--------------------- */
+#IG{text-align: end;}
+#Mail{text-align: end}
+#Kontakt:hover{  background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 30px;
+    text-align: center;}
+#Kontakt {transition: color 1s ease-in-out 0s;
+            color:white;
+        position:relative;
+    top:0;}
+
+    #kontaktformular {text-align: center;}
+
+
+
+
+
+
+/*--------------------Navigation----------------------*/
+
+<style>
+header nav ul {
+text-align: right;
+list-style: none;
+background-color: white;
+padding: 0px;
+font-family: Arial, Helvetica, sans-serif;
+word-spacing: -0.25em;
+}
+
+header nav ul li { 
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    padding: 5px;
+    border-right: 1px solid white;
+    margin: 0;
+    word-spacing: 0;
+
+}
+header nav ul li:hover {
+background-color:  #0c0032;
+color: white;
+}
+</style>
+
+
+/*Allgemeine Anweisungen für größere Auflösungen */
+@media screen and (min-width: 1024px)
+h1 { font-size: 40px; }
+
+
+
+
+
+
+
+
